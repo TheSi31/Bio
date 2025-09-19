@@ -1,0 +1,10 @@
+@font-face {
+  font-family: 'Rubik Wet Paint';
+  src: url('/fonts/RubikWetPaint-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.vertical-timeline::before {
+  background: #222 !important; 
+}

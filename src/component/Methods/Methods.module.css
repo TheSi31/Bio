@@ -1,0 +1,31 @@
+.methods {
+    position: relative;
+    background-color: rgb(229 229 229 / 67%);
+    border-radius: 16px;
+    padding: 24px 16px;
+    margin: 16px;
+}
+
+.methods h2 {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    gap: 32px;
+    margin: 32px 0px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.item p {
+    font-size: 1.25rem;
+}
